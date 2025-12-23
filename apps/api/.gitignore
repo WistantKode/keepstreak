@@ -1,56 +1,104 @@
-# compiled output
-/dist
-/node_modules
-/build
+# DEPENDENCIES
+node_modules/
+.pnp
+.pnp.js
+.yarn/install-state.gz
 
-# Logs
-logs
+# ENVIRONMENT VARIABLES (CRITICAL - NEVER COMMIT)
+.env
+.env.local
+.env.*.local
+.env.development
+.env.staging
+.env.production
+.env.test
+
+# Backup env files
+*.env.backup
+*.env.bak
+
+# BUILD OUTPUTS
+.next/
+out/
+build/
+dist/
+.turbo/
+.vercel/
+
+# TESTING
+coverage/
+.nyc_output/
+*.lcov
+
+# LOGS
+logs/
 *.log
 npm-debug.log*
-pnpm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+pnpm-debug.log*
 lerna-debug.log*
 
-# OS
+# OS FILES
 .DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
 
-# Tests
-/coverage
-/.nyc_output
-
-# IDEs and editors
-/.idea
+# IDE / EDITORS
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.idea/
+*.swp
+*.swo
+*~
 .project
 .classpath
 .c9/
 *.launch
 .settings/
 *.sublime-workspace
+.history/
 
-# IDE - VSCode
-.vscode/*
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
+# CERTIFICATES & KEYS (CRITICAL - NEVER COMMIT)
+*.pem
+*.key
+*.cert
+*.crt
+*.p12
+*.pfx
+id_rsa
+id_rsa.pub
+*.asc
 
-# dotenv environment variable files
-.env
-.env.development.local
-.env.test.local
-.env.production.local
-.env.local
+# TEMPORARY FILES
+tmp/
+temp/
+*.tmp
+*.temp
+.cache/
 
-# temp directory
-.temp
-.tmp
+# TYPESCRIPT
+*.tsbuildinfo
+next-env.d.ts
 
-# Runtime data
-pids
-*.pid
-*.seed
-*.pid.lock
+# MISC
+.eslintcache
+.stylelintcache
 
-# Diagnostic reports (https://nodejs.org/api/report.html)
-report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+# IGNORED DOCUMENTATION (MD FILES)
+*.md
+!README.md
+!CODE_OF_CONDUCT.md
+!CONTRIBUTING.md
+!LICENSE.md
+!SECURITY.md
+!LICENSE
+!PULL_REQUEST_TEMPLATE.md
