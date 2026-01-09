@@ -1,79 +1,61 @@
-# <p align="center">✨ KeepStreak ✨</p>
+<p align="center">
+  <a href="https://github.com/WistantKode/keepstreak">
+    <img src="assets/hero_premium_rect.png" alt="KeepStreak Banner" width="800">
+  </a>
+</p>
+
+<h1 align="center">✨ KeepStreak ✨</h1>
 
 <p align="center">
-  <img src="assets/hero_banner.png" alt="KeepStreak Hero Banner" width="100%">
+  <strong>Orchestration distribuée. Sécurité Zero-Token. Excellence visuelle.</strong><br>
+  <em>Maintenez votre présence sur GitHub avec l'élégance d'un Shadow Worker.</em>
 </p>
 
 <p align="center">
-  <strong>Maintenez votre éclat sur GitHub. Automatiquement. Divinement.</strong><br>
-  <em>L'outil ultime pour les développeurs qui ne dorment jamais, même quand ils dorment.</em>
-</p>
-
-<p align="center">
+  <a href="docs/README.md"><img src="https://img.shields.io/badge/Documentation-Hub-10b981?style=for-the-badge&logo=gitbook&logoColor=white" alt="Documentation"></a>
   <img src="https://img.shields.io/badge/Architecture-Turborepo-EF4444?style=for-the-badge&logo=turborepo" alt="Turborepo">
-  <img src="https://img.shields.io/badge/Frontend-Next.js%2016-000000?style=for-the-badge&logo=next.js" alt="Next.js">
-  <img src="https://img.shields.io/badge/Backend-NestJS-E0234E?style=for-the-badge&logo=nestjs" alt="NestJS">
-  <img src="https://img.shields.io/badge/Database-Prisma%20%26%20Postgres-2D3748?style=for-the-badge&logo=prisma" alt="Prisma">
-  <img src="https://img.shields.io/badge/Security-AES--256--GCM-00C853?style=for-the-badge" alt="Security">
+  <img src="https://img.shields.io/badge/Stack-Next.js%2016-000000?style=for-the-badge&logo=next.js" alt="Next.js">
+  <img src="https://img.shields.io/badge/Security-HMAC--SHA256-00C853?style=for-the-badge" alt="Security">
 </p>
- 
----
-
-> [!IMPORTANT]  
-> **Note de l'Auteur : Le Défi avant tout**  
-> Je tiens à préciser que ce projet est né avant tout d'un **défi technique majeur** : comment construire une infrastructure capable de gérer des milliers de processus asynchrones ultra-sécurisés en temps réel. Bien que l'outil puisse être perçu comme un moyen de "tromper" les statistiques GitHub, mon intention n'est nullement d'encourager la fraude. Toutes mes excuses si cela est mal interprété ; c'est la complexité du système et la beauté de l'architecture qui me passionnent ici.
 
 ---
 
-## 🌌 La Vision
-KeepStreak n'est pas qu'un simple script de commit. C'est une plateforme **ultra-haute performance** conçue pour l'élite des développeurs. 
+## 🌌 La Vision Cyber-Premium
+**KeepStreak** n'est pas qu'un outil d'automatisation ; c'est une démonstration d'ingénierie logicielle avancée. Conçu pour les développeurs exigeants, il combine la robustesse structurelle de **Cal.com** avec l'esthétique immersive de **Framer**.
 
-Imaginez une infrastructure capable de gérer **5000+ développeurs** simultanément, garantissant que chaque profil GitHub reste vert, jour après jour, avec une précision chirurgicale et une sécurité absolue.
+> [!IMPORTANT]
+> **Focus Ingénierie** : Ce projet explore la gestion de flux asynchrones massifs (5000+ workers) et la sécurité cryptographique décentralisée. L'aspect "streak" est le terrain de jeu d'une architecture distribuée complexe.
 
-## 🚀 Fonctionnalités Célestes
+## 🚀 Fonctionnalités Clés
+- **Shadow Handshake** : Activation sécurisée via HMAC sans stockage de tokens permanents.
+- **Pulse Engine** : Scheduler intelligent avec injection de **Jitter** pour un comportement humain.
+- **Stealth Monitoring** : Dashboard "Glassmorphism" pour un suivi en temps réel de votre infrastructure.
+- **Zero-Token Storage** : Vos accès GitHub ne quittent jamais votre environnement sécurisé.
 
-- **Automated Pulse** : Détecte l'absence d'activité et injecte un commit "KeepAlive" intelligent avant la fin de la journée.
-- **Dashboard Divin** : Une interface moderne, fluide (glassmorphism) pour piloter vos streaks en un coup d'œil.
-- **Sécurité Militaire** : Chiffrement de vos tokens GitHub via **AES-256-GCM**. Vos accès sont vos yeux, nous les protégeons.
-- **Multi-Rôles** : 
-  - 🧑‍💻 **Dev Dashboard** : Statistiques, réglages de fréquence, historique de maintien.
-  - 🛡️ **Admin Dashboard** : Monitoring système, gestion de la charge (5000+ users), analytique globale.
+## 📚 Documentation Hub
+L'intégralité du projet est documentée de manière modulaire :
 
-## 🛠️ Architecture de Haute Volée
-
-### Tech Stack
-- **Monorepo** : Géré par [Turborepo](https://turbo.build/).
-- **Engine** : [NestJS](https://nestjs.com/) pour un backend scalable et modulaire.
-- **UI** : [Next.js 16](https://nextjs.org/) avec [Tailwind CSS](https://tailwindcss.com/) et [Framer Motion](https://www.framer.com/motion/).
-- **Persistence** : [Prisma](https://www.prisma.io/) + [PostgreSQL].
-- **Workers** : [BullMQ](https://docs.bullmq.io/) + [Redis] pour le traitement asynchrone massif (5000+ concurrent jobs).
-
----
-
-## 🏛️ Structure du Projet
-
-```bash
-KeepStreak/
-├── apps/
-│   ├── web/          # Frontend Next.js (Landing & Dashboards)
-│   ├── api/          # Backend NestJS (API & Jobs Core)
-├── packages/
-│   ├── db/           # Schéma Prisma & Client centralisé
-│   ├── ui/           # Design System (Custom Components)
-│   ├── security/     # Logique de chiffrement AES-256-GCM
-│   └── shared/       # Types et constantes partagés
-├── infrastructure/   # Configurations Docker, Redis, Postgres
-└── assets/           # Ressources visuelles premium
-```
-
-## 🔒 Sécurité
-Nous traitons vos tokens comme des reliques sacrées. Chaque jeton est :
-1. Chiffré au repos via AES-256-GCM.
-2. Isolé dans des processus de workers sécurisés.
-3. Jamais exposé au frontend.
+| Section | Contenu |
+| :--- | :--- |
+| **🎨 [Design Hub](docs/design/index.md)** | Principes UX, Tokens UI, Strategy & Case Studies. |
+| **🏗️ [Architecture](docs/architecture/index.md)** | ADRs, Systèmes distribués et schémas Redis. |
+| **🛡️ [Sécurité](docs/security/index.md)** | Détails des protocoles HMAC et isolation. |
+| **📦 [Produit](docs/product/index.md)** | PRD, Epics, Stories et Readiness Reports. |
 
 ---
 
+## 🛠️ Architecture Technique
+- **Monorepo** : [Turborepo](https://turbo.build/)
+- **Backend** : [NestJS](https://nestjs.com/) + [Redis Streams]
+- **Frontend** : [Next.js 16](https://nextjs.org/) + [Framer Motion](https://www.framer.com/motion/)
+- **Database** : [Prisma](https://www.prisma.io/) + [Neon PostgreSQL]
+
+<p align="center">
+  <br>
+  <a href="docs/README.md"><strong>Explorer la documentation complète →</strong></a>
+</p>
+
+---
 <p align="center">
   Réalisé avec ❤️ par un passionné de défis techniques.
 </p>
