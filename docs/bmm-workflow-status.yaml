@@ -41,7 +41,7 @@ workflow_status:
         agent: "architect"
         command: "/bmad:bmm:workflows:create-architecture"
       - id: "create-epics-and-stories"
-        status: "required"
+        status: "docs/product/epics-and-stories.md"
         agent: "pm"
         command: "/bmad:bmm:workflows:create-epics-and-stories"
       - id: "test-design"

@@ -4,14 +4,14 @@ L'architecture de **KeepStreak** est conçue pour la scalabilité, la résilienc
 
 ## Sommaire
 
-### 📐 [Architecture Système](file:///home/kali-root/Dev/PersonnalProjects/KeepStreak/docs/architecture/system-architecture.md)
+### 📐 [Architecture Système](system-architecture.md)
 Vue d'ensemble des composants, flux de données et orchestration globale.
 
-### 🏛️ [Registre des Décisions (ADR)](file:///home/kali-root/Dev/PersonnalProjects/KeepStreak/docs/architecture/decisions.md)
+### 🏛️ [Registre des Décisions (ADR)](decisions.md)
 Historique et justification des choix techniques (Neon, Prisma, Redis, etc.).
 
-### 📂 [Systèmes Distribués](file:///home/kali-root/Dev/PersonnalProjects/KeepStreak/docs/architecture/distributed-systems/index.md)
+### 📂 [Systèmes Distribués](distributed-systems/index.md)
 Plongée profonde dans Redis Streams, la gestion du Jitter et les Shadow Workers.
 
 ---
-[⬅️ Retour à l'accueil](file:///home/kali-root/Dev/PersonnalProjects/KeepStreak/docs/index.md)
+[⬅️ Retour à l'accueil](../index.md)

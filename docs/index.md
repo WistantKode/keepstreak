@@ -7,17 +7,20 @@ KeepStreak permet de maintenir une activité réelle sur GitHub via des **Shadow
 
 ## 🧭 Navigation Rapide
 
-### 📦 [Produit & Vision](file:///home/kali-root/Dev/PersonnalProjects/KeepStreak/docs/product/index.md)
+### 📦 [Produit & Vision](product/index.md)
 Définition des besoins, PRD, et objectifs du projet.
 
-### 🏗️ [Architecture Technique](file:///home/kali-root/Dev/PersonnalProjects/KeepStreak/docs/architecture/index.md)
+### 🏗️ [Architecture Technique](architecture/index.md)
 Structure globale, décisions technologiques et systèmes distribués (Redis Streams).
 
-### 🛡️ [Sécurité & Protocoles](file:///home/kali-root/Dev/PersonnalProjects/KeepStreak/docs/security/index.md)
+### 🛡️ [Sécurité & Protocoles](security/index.md)
 Détails du handshake HMAC, chiffrement AES et isolation des données.
 
-### 🚀 [Onboarding & Guides](file:///home/kali-root/Dev/PersonnalProjects/KeepStreak/docs/onboarding/index.md)
+### 🚀 [Onboarding & Guides](onboarding/index.md)
 Guide utilisateur, flux d'onboarding SaaS et maintenance des workers.
+
+### 🎨 [Design & Expérience (UX/UI)](design/index.md)
+Système de design Cyber-Premium, tokens Cal.com, et parcours utilisateur.
 
 ---
 

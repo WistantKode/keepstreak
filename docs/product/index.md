@@ -4,8 +4,11 @@ Cette section regroupe les documents relatifs à la vision stratégique, aux bes
 
 ## Sommaire
 
-### 📄 [PRD (Product Requirements Document)](file:///home/kali-root/Dev/PersonnalProjects/KeepStreak/docs/product/prd.md)
+### 📄 [PRD (Product Requirements Document)](prd.md)
 Le document de référence définissant la portée, les utilisateurs cibles, et les fonctionnalités détaillées.
+
+### 📋 [Epics & User Stories](epics-and-stories.md)
+Le découpage du projet en unités de travail concrètes pour le développement.
 
 ### 🎯 Objectifs Maintenir la Streak
 - Automatisation invisible et humaine.
@@ -13,4 +16,4 @@ Le document de référence définissant la portée, les utilisateurs cibles, et 
 - Interface de monitoring moderne et temps-réel.
 
 ---
-[⬅️ Retour à l'accueil](file:///home/kali-root/Dev/PersonnalProjects/KeepStreak/docs/index.md)
+[⬅️ Retour à l'accueil](../index.md)

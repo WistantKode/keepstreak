@@ -4,7 +4,7 @@ La sécurité est le pilier central de **KeepStreak**. Notre approche repose sur
 
 ## Sommaire
 
-### 🛡️ [Protocoles de Sécurité](file:///home/kali-root/Dev/PersonnalProjects/KeepStreak/docs/security/security-protocols.md)
+### 🛡️ [Protocoles de Sécurité](security-protocols.md)
 Détails techniques du handshake HMAC, de l'isolation des tenants et du chiffrement AES-256-GCM.
 
 ### 🔑 Gestion des Identités
@@ -15,4 +15,4 @@ Détails techniques du handshake HMAC, de l'isolation des tenants et du chiffrem
 Explication de comment nous évitons de stocker des tokens persistants côté serveur central grâce aux GitHub App secrets et au handshake dynamique.
 
 ---
-[⬅️ Retour à l'accueil](file:///home/kali-root/Dev/PersonnalProjects/KeepStreak/docs/index.md)
+[⬅️ Retour à l'accueil](../index.md)

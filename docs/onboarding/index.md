@@ -4,7 +4,7 @@ Le succès de **KeepStreak** repose sur une interface "frictionless" où l'aspec
 
 ## Sommaire
 
-### 🚀 [Flux d'Onboarding SaaS](file:///home/kali-root/Dev/PersonnalProjects/KeepStreak/docs/onboarding/user-onboarding-flow.md)
+### 🚀 [Flux d'Onboarding SaaS](user-onboarding-flow.md)
 Parcours utilisateur de la connexion au premier "Pulse" effectif.
 
 ### 🛠️ Maintenance & Mises à Jour
@@ -12,4 +12,4 @@ Parcours utilisateur de la connexion au premier "Pulse" effectif.
 - Gestion des pannes et alertes.
 
 ---
-[⬅️ Retour à l'accueil](file:///home/kali-root/Dev/PersonnalProjects/KeepStreak/docs/index.md)
+[⬅️ Retour à l'accueil](../index.md)
