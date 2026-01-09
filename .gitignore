@@ -95,6 +95,8 @@ next-env.d.ts
 
 # IGNORED DOCUMENTATION (MD FILES)
 *.md
+!docs/
+!docs/**
 !README.md
 !CODE_OF_CONDUCT.md
 !CONTRIBUTING.md
@@ -102,3 +104,11 @@ next-env.d.ts
 !SECURITY.md
 !LICENSE
 !PULL_REQUEST_TEMPLATE.md
+
+# BMAD
+_bmad
+_bmad-output
+.agent
+.claude
+
+DS/
