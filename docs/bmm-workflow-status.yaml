@@ -27,7 +27,7 @@ workflow_status:
   - name: "Planning"
     workflows:
       - id: "prd"
-        status: "required"
+        status: "completed"
         agent: "pm"
         command: "/bmad:bmm:workflows:create-prd"
       - id: "create-ux-design"
