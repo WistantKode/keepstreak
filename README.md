@@ -16,7 +16,7 @@
   <img src="https://img.shields.io/badge/Database-Prisma%20%26%20Postgres-2D3748?style=for-the-badge&logo=prisma" alt="Prisma">
   <img src="https://img.shields.io/badge/Security-AES--256--GCM-00C853?style=for-the-badge" alt="Security">
 </p>
-
+ 
 ---
 
 > [!IMPORTANT]  
