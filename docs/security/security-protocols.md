@@ -4,9 +4,9 @@
 Le principe "Zero-Token Storage" garantit que **KeepStreak** ne stocke jamais de tokens GitHub persistants (PAT) sur son infrastructure centrale.
 
 ### Fonctionnement :
-1. L'utilisateur installe l'application KeepStreak sur son repository.
-2. Un secret `GH_APP_TOKEN` est stocké directement dans les **GitHub Actions Secrets** du repo client.
-3. Le serveur central ne connaît que l'ID du repo et l'ID d'installation.
+1. **Provisioning Invisible** : Dès l'OAuth, le Cerveau crée automatiquement le repository privé `keepstreak-pulse` via l'API GitHub de l'utilisateur.
+2. **Injection de Secrets** : Le Cerveau injecte le `HANDSHAKE_SECRET` et le `KEEPSTREAK_CLIENT_ID` directement dans les GitHub Actions Secrets du repo créé.
+3. **Zero-Token Storage** : Le serveur central ne stocke jamais de Personal Access Token (PAT). Il utilise l'accès OAuth éphémère uniquement pour le provisioning initial et la configuration des secrets.
 
 ## 2. Le Handshake HMAC SHA-256
 Pour s'assurer qu'une requête de "Pulse" provient bien de notre Cerveau et n'est pas falsifiée par un tiers :
@@ -25,4 +25,4 @@ Les données sensibles (clés privées, préférences de messages de commit) son
 L'isolation est logicielle et renforcée par Prisma. Chaque requête API et chaque accès DB est filtré systématiquement par le `user_id` de la session OAuth active.
 
 ---
-[⬅️ Retour à la Sécurité](file:///home/kali-root/Dev/PersonnalProjects/KeepStreak/docs/security/index.md)
+[⬅️ Retour à la Sécurité](index.md)
