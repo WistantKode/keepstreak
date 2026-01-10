@@ -112,4 +112,5 @@ _bmad-output
 .claude
 
 DS/
+.protocols/
 docs/bmm-workflow-status.yaml
