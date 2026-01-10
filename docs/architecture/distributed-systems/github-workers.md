@@ -28,4 +28,4 @@ Le fichier `.github/workflows/pulse.yml` contient la logique suivante :
 Le worker ne possède que les droits d'écriture sur son propre repository. Il n'a aucun accès aux données des autres utilisateurs de la plateforme. Toute communication avec le Cerveau est signée et horodatée pour empêcher les attaques par rejeu.
 
 ---
-[⬅️ Retour aux Systèmes Distribués](file:///home/kali-root/Dev/PersonnalProjects/KeepStreak/docs/architecture/distributed-systems/index.md)
+[⬅️ Retour aux Systèmes Distribués](index.md)

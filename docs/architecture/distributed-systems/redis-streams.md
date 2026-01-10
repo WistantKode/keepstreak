@@ -28,4 +28,4 @@ XREADGROUP GROUP workers instance_1 BLOCK 2000 STREAMS pulse_commands >
 Au lieu de déclencher à une heure fixe (ex: 14h00), l'API calcule une fenêtre de temps aléatoire. La tâche est placée dans Redis avec un paramètre `scheduled_at`. Un worker de l'API vérifie périodiquement les tâches prêtes à être expédiées.
 
 ---
-[⬅️ Retour aux Systèmes Distribués](file:///home/kali-root/Dev/PersonnalProjects/KeepStreak/docs/architecture/distributed-systems/index.md)
+[⬅️ Retour aux Systèmes Distribués](index.md)
