@@ -21,7 +21,7 @@ L'objectif de cette documentation est de fournir une vision à 360° du projet, 
 | | **Index** | Menu de la section Architecture. | [architecture/index.md](architecture/index.md) |
 | **🛡️ Sécurité** | **Protocols** | HMAC, AES-256-GCM et Zero-Token. | [security/security-protocols.md](security/security-protocols.md) |
 | | **Index** | Menu de la section Sécurité. | [security/index.md](security/index.md) |
-| **🎨 Design (UX/UI)**| **Principles** | Calm Power & engineering aesthetics. | [design/ux/principles.md](design/ux/principles.md) |
+| **🎨 Design (UX/UI)**| **Principles** | Calm Power, Absolute Transparency & Trust. | [design/ux/principles.md](design/ux/principles.md) |
 | | **Experience**| Vision "Magical Handshake". | [design/ux/core-experience.md](design/ux/core-experience.md) |
 | | **Tokens** | Palette Zinc, Cal Sans & 8px grid. | [design/ui/tokens.md](design/ui/tokens.md) |
 | | **Strategy** | Foundation (Cal.com) vs Signatures. | [design/ui/component-strategy.md](design/ui/component-strategy.md) |

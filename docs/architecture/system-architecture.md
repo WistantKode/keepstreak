@@ -39,4 +39,4 @@ Agents distants s'exécutant sur l'infrastructure de GitHub. Ils :
 4. **Execution** : La GH Action demande ses instructions -> Handshake HMAC -> Récupération de la tâche chiffrée -> Commit discret.
 
 ---
-[⬅️ Retour à l'Architecture](file:///home/kali-root/Dev/PersonnalProjects/KeepStreak/docs/architecture/index.md)
+[⬅️ Retour à l'Architecture](index.md)
