@@ -22,6 +22,9 @@ Guide utilisateur, flux d'onboarding SaaS et maintenance des workers.
 ### 🎨 [Design & Expérience (UX/UI)](design/index.md)
 Système de design Cyber-Premium, tokens Cal.com, et parcours utilisateur.
 
+### 🛠️ [Build & Déploiement](build/index.md)
+CI/CD, gestion du monorepo Turborepo, et stratégies de déploiement VPS/Vercel.
+
 ---
 
 *Note : Cette documentation est structurée pour faciliter la navigation humaine et l'indexation par les agents IA.*
